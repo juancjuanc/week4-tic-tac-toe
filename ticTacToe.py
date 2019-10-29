@@ -9,6 +9,8 @@ def printBoard(board):
 
 def checkWinner(board, player):    
     print('Checking if ' + player + ' is a winner...')
+    winner = player
+    return winner
     
     # TO DO #################################################################
     # Write code in this function that checks the tic-tac-toe board          #
